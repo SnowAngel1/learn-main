@@ -35,6 +35,7 @@
       <module>learn-ShardingspHere</module>
       <module>learn-netty</module>
       <module>learn-zookeeper</module>
+      <module>learn-kafka</module>
   </modules>
 
   <properties>
