@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.5.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
+  <groupId>org.example</groupId>
+  <artifactId>learn-main</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>beauty-of-design-pattern</module>
+    <module>learn-es</module>
+    <module>learn-minio</module>
+    <module>mall-user</module>
+    <module>mall-user-feign-demo</module>
+    <module>neo4j-spring-boot</module>
+    <module>spring-cloud-alibaba-sentinel-demo</module>
+    <module>learn-common</module>
+    <module>learn-jvm</module>
+    <module>learn-redis</module>
+    <module>learn-redis/redis-boot-sentinel-cluster</module>
+    <module>learn-redis/redis-jedis</module>
+    <module>learn-redis/redis-lock</module>
+    <module>learn-user-sentinel-demo</module>
+    <module>learn-user-sentinel-rule-pull-demo</module>
+    <module>learn-user-sentinel-rule-push-demo</module>
+    <module>learn-mongodb</module>
+    <module>learn-leetcode</module>
+      <module>learn-ShardingspHere</module>
+      <module>learn-netty</module>
+      <module>learn-zookeeper</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+    <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
+    <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>${spring-cloud-alibaba.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>

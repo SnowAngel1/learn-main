@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: study-user-sentinel-rule-pull-demo  #微服务名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        #添加控制台地址
+        dashboard: 127.0.0.1:8080
+server:
+  port: 8086

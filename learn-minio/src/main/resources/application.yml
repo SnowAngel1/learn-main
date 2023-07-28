@@ -1,0 +1,5 @@
+minio:
+  url: http://192.168.3.203:9000
+  userName: admin
+  password: 12345678
+  bucketName: hellominio

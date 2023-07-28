@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learn.zookeeper.curator.mapper.ProductMapper">
+
+    <resultMap id="ProductBaseResult" type="com.learn.zookeeper.curator.entity.Product">
+        <result column="id" property="id"/>
+        <result column="product_name" property="productName"/>
+        <result column="stock" property="stock"/>
+        <result column="version" property="version"/>
+
+    </resultMap>
+
+    <select id="selectOne" resultMap="ProductBaseResult">
+       select * from product where id = #{id,jdbcType=INTEGER}
+    </select>
+
+
+    <update id="updateProduct" parameterType="java.lang.Integer">
+        update product set stock = stock-1 where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

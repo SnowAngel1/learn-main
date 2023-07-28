@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://chen:chen@192.168.75.128:27017/aggdemo?authSource=admin

@@ -1,0 +1,25 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: study-user-sentinel-rule-push-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      #添加sentinel控制台地址
+      transport:
+        #指定应用与sentinel控制台交互的端口，应用本地会起一个该端口占用httpServer
+        dashboard: 127.0.0.1:8080
+      datasource:
+        flow-rule:   #名称自定义，唯一
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-flow-rules
+            groupId: SENTINEL_GROUP
+            data-type: json
+            rule-type: flow
+feign:
+  sentinel:
+    enabled: true   #开启sentinel对feign的支持 默认false
