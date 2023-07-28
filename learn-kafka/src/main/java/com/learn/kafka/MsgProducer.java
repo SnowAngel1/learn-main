@@ -7,6 +7,7 @@ import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
 /**
  * @author ChenYP
@@ -18,7 +19,7 @@ public class MsgProducer {
 
     private final static String TOPIC_NAME = "my-topic";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         Properties props = new Properties();
 
