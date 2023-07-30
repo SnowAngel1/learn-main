@@ -36,6 +36,7 @@
       <module>learn-netty</module>
       <module>learn-zookeeper</module>
       <module>learn-kafka</module>
+      <module>learn-rocketmq</module>
   </modules>
 
   <properties>
