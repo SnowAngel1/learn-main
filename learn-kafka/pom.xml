@@ -33,6 +33,11 @@
             <version>2.4.1</version>
         </dependency>
 
+        <!-- spring boot Kafka -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

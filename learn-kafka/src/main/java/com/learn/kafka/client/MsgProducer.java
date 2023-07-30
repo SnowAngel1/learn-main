@@ -1,7 +1,7 @@
-package com.learn.kafka;
+package com.learn.kafka.client;
 
 import com.alibaba.fastjson.JSON;
-import com.learn.kafka.entity.Order;
+import com.learn.kafka.client.entity.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
