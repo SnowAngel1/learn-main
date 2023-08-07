@@ -19,7 +19,7 @@
     <module>learn-minio</module>
     <module>mall-user</module>
     <module>mall-user-feign-demo</module>
-    <module>neo4j-spring-boot</module>
+    <module>learn-neo4j</module>
     <module>spring-cloud-alibaba-sentinel-demo</module>
     <module>learn-common</module>
     <module>learn-jvm</module>
