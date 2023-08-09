@@ -5,7 +5,7 @@ import com.study.user.sentineldemo.domain.request.UserInfoReq;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Fox
+ * @author ChenYP
  */
 @Component   //必须交给spring 管理
 public class FallbackOrderFeignService implements UserFeignService {

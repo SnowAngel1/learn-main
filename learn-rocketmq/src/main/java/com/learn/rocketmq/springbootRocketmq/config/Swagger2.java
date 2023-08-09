@@ -2,12 +2,12 @@ package com.learn.rocketmq.springbootRocketmq.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import springfox.documentation.builders.ApiInfoBuilder;
-import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.service.ApiInfo;
-import springfox.documentation.spi.DocumentationType;
-import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import springChenYP.documentation.builders.ApiInfoBuilder;
+import springChenYP.documentation.builders.PathSelectors;
+import springChenYP.documentation.service.ApiInfo;
+import springChenYP.documentation.spi.DocumentationType;
+import springChenYP.documentation.spring.web.plugins.Docket;
+import springChenYP.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author ：ChenYP

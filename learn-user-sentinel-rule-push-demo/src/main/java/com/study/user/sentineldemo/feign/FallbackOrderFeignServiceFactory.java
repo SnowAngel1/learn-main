@@ -6,7 +6,7 @@ import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Fox
+ * @author ChenYP
  */
 @Component
 public class FallbackOrderFeignServiceFactory implements FallbackFactory<UserFeignService> {

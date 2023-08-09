@@ -4,7 +4,7 @@ import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.common.utils.R;
 
 /**
- * @author Fox
+ * @author ChenYP
  */
 public class ExceptionUtil {
 

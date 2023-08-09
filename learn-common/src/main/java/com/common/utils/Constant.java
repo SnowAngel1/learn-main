@@ -11,7 +11,7 @@ package com.common.utils;
 /**
  * 常量
  *
- * @author Fox
+ * @author ChenYP
  */
 public class Constant {
 	/** 超级管理员ID */

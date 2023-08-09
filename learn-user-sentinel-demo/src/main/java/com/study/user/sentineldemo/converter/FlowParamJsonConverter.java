@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author Fox
+ * @author ChenYP
  */
 public class FlowParamJsonConverter extends JsonConverter {
     Class ruleClass;
