@@ -66,13 +66,13 @@
             <version>2.1.6.RELEASE</version>
         </dependency>
         <dependency>
-            <groupId>io.springChenYP</groupId>
-            <artifactId>springChenYP-swagger-ui</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
         <dependency>
-            <groupId>io.springChenYP</groupId>
-            <artifactId>springChenYP-swagger2</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
             <version>2.9.2</version>
         </dependency>
     </dependencies>
