@@ -33,7 +33,7 @@ public class TestWeakRed {
 
     public static void main(String[] args) {
         // 强引用
-        User user = new User("陈迎鹏", "1");
+        User user = new User("ChenYP", "1");
         // User user1 = user;
         // user = null;
         // System.gc();

@@ -9,7 +9,7 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author：陈迎鹏
+ * @author：ChenYP
  * @Description minio分布式存储，下载
  * @since 1.0.0
  */

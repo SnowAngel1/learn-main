@@ -11,7 +11,7 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author：陈迎鹏
+ * @author：ChenYP
  * @Description Minio 分布式文件存储，上传
  * @since 1.0.0
  */
