@@ -15,7 +15,7 @@ public class CyclicBarrierDemo {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(5, () -> {
             System.out.println("人齐了，准备发车");
         });
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 15; i++) {
             final int id = i + 1;
             executorService.submit(new Runnable() {
                 @Override

@@ -9,7 +9,7 @@ import com.learn.concurrent.tools.SleepTools;
 
 public class VolatileTest {
 
-    private static  boolean flag = true;
+    private static    boolean flag = true;
 
     private static int number = 0;
 
@@ -22,7 +22,7 @@ public class VolatileTest {
             System.out.println("PrintThread is running...");
             while (flag){
                 // 加上打印也可以实现可见性，因为打印里边使用了synchronized关键字
-                // System.out.println("1111");
+                System.out.println("1111");
             }
 
             System.out.println("Number= " + number);

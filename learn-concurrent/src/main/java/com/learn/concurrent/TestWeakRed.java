@@ -45,10 +45,5 @@ public class TestWeakRed {
         System.out.println(userWeakReference.get());
         System.gc();
         System.out.println(userWeakReference.get());
-
-
     }
-
-
-
 }
