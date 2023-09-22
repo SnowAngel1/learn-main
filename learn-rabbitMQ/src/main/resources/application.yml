@@ -1,0 +1,9 @@
+# ??RabbitMQ ???? ip ?? username password
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: bq123
+    password: bq123
+    virtual-host: /baiqi

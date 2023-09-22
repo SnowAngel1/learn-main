@@ -41,6 +41,7 @@
       <module>learn-seata</module>
       <module>learn-concurrent</module>
       <module>learn-sykwalking</module>
+      <module>learn-rabbitMQ</module>
   </modules>
 
   <properties>
